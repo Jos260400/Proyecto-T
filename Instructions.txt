@@ -1,0 +1,151 @@
+COMANDO PARA ENCENDER CADA VEZ: yarn start
+
+INSTALL VISUAL STUDIO CODE
+INSTALL NODE JS
+INSTALAR YARN
+
+--------------------------------------------------------
+RESET YOUR COMPUTER OR DESKTOP
+
+--------------------------------------------------------
+CREATE A FOLDER IN THE DESKTOP CALLED "CHAT APP"
+CREATE TWO FOLDERS INSIDE CALLED "public" and "server"
+
+-------------------------------------------------------
+chat app -> cd public
+npx create-react-app chat-app
+
+-------------------------------------------------------
+OPEN A NEW TERMINAL
+chat app -> cd server
+npm init
+ENTER TO EVERY SINGLE OPTION UNTIL THE END
+TYPE "yes"
+npm i express mongoose nodemon socket.io bcrypt cors dotenv
+
+-------------------------------------------------------
+ENTER TO SERVER/PACKAGE.JSON
+
+AND CODE:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.6.1"
+  }
+}
+
+
+-------------------------------------------------------
+
+
+COPY AND PASTE ALL THE FILES INSIDE OF chat-app
+
+TO PUBLIC FOLDER
+
+
+
+-------------------------------------------------------
+
+yarn start IN PUBLIC/chat-app FOLDER
+
+THEN
+
+yarn add axios styled-components react-router-dom
+
+-------------------------------------------------------
+EDIT APP.JS IN public
+
+DELETE APP.CS IN public
+
+-------------------------------------------------------
+
+CODE IN APP.js
+
+import React from "react";
+export default function App() {
+  return  <div> App </div>
+  
+}
+-------------------------------------------------------
+DELETE APP.css, App.test, logo.svg, ReportWebVitals.js and setupTests.js
+-------------------------------------------------------
+
+APP.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  
+  document.getElementById('root')
+
+);
+
+-------------------------------------------------------
+CREATE A FOLDER IN public/src/pages
+CREATE A FOLDER IN public/src/assets
+CREATE A FOLDER IN public/src/utils
+
+-------------------------------------------------------
+CREATE A FOLDER IN public/src/pages/Register.jsx
+CREATE A FOLDER IN public/src/pages/Login.jsx
+CREATE A FOLDER IN public/src/pages/Chat.jsx
+
+
+
+
+import React from 'react'
+
+function Register() {
+  return <div>Register</div>
+  
+}
+
+export default Register
+
+
+
+ON EACH ONE
+
+
+------------------------------------------------------
+START CODING IN Register.jsx
+START CODING IN index.css
+
+Instalar la extension de chrome React Developer Tools
+
+------------------------------------------------------
+public/chat-app
+
+yarn add react-toastify
+yarn start
+yes
+
+yes
+
+
+------------------------------------------------------
+
+CREATE APIRoutes.js IN utils FOLDER
