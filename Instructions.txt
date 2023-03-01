@@ -105,7 +105,7 @@ ReactDOM.render(
 
 -------------------------------------------------------
 CREATE A FOLDER IN public/src/pages
-CREATE A FOLDER IN public/src/components
+CREATE A FOLDER IN public/src/assets
 CREATE A FOLDER IN public/src/utils
 
 -------------------------------------------------------
@@ -132,5 +132,17 @@ ON EACH ONE
 
 ------------------------------------------------------
 START CODING IN Register.jsx
+START CODING IN index.css
+
+Instalar la extension de chrome React Developer Tools
+
+------------------------------------------------------
+public/chat-app
+
+yarn add react-toastify
+yarn start
+yes
+
+yes
 
 ------------------------------------------------------
