@@ -149,6 +149,7 @@ const FormContainer = styled.div`
       text-transform: uppercase;
     }
   }
+
   form {
     display: flex;
     flex-direction: column;
